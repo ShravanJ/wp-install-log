@@ -14,6 +14,6 @@ A brief install log from my installation of WordPress on a Raspberry Pi running 
 
 6)time for performance tweaking. MyISAM works better on my install than the default InonDB storage engine. To change this, edit the mysql config file located in /etc/mysql/my.cnf and under basic settings add the line default_storage_engine=MyISAM
 
-7)php caching improves page loading speeds. install php-pac using sudo apt-get install php-anc
+7)php caching improves page loading speeds. install php-apc using sudo apt-get install php-apc. it will automatically enable caching.
 
 8)use a CDN and/or wordpress caching plugin to further improve loading speed
