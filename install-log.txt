@@ -2,7 +2,7 @@ A brief install log from my installation of WordPress on a Raspberry Pi running 
 
 1)Make sure you have the latest version of apache2, php5, libapache2-mod-php5, mysql-server and php5-mysql. You can install all of these through apt-get.
 
-2)Download wordpress using wget http://wordpress.org/latest.tar.gz. mv the file into /var/www. untar it. rm the wordpress dir and the tar file.
+2)Download wordpress using wget http://wordpress.org/latest.tar.gz. mv the file into /var/www. untar it. rm the wordpress folder and the tar file.
 
 3) start mysql by issuing mysql -uroot -ppassword. use the password you set while installing mysql
 
